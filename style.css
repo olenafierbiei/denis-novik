@@ -9,6 +9,7 @@ nav {
   justify-content: center;
   border-bottom: 2px solid gray;
   padding: 10px 0;
+
 }
 
 nav ul {
@@ -30,10 +31,15 @@ nav li:last-child {
 nav a {
   text-decoration: none;
   color: black;
+  font-weight: normal;
+  transition: opacity 0.3s ease;
+  opacity: 1;
 }
 
 nav a:hover {
-  color: #333
+  color: #333;
+  font-weight: bold;
+  opacity: 0.5;
 }
 
 #first-screen {
@@ -168,6 +174,7 @@ h2 {
 
 #button:hover {
   background-color: #333;
+  transform: scale(1.05);
 }
 
 .icon2 {
